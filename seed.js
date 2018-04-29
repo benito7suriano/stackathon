@@ -2,7 +2,7 @@ const {db, PotReading} = require('./server/db/models')
 
 const potReadings = []
 
-for (let i = 0; i < 500; i++) {
+for (let i = 0; i < 100; i++) {
   const newEntry = {}
   newEntry.reading = Math.floor(Math.random() * 1024)
   potReadings.push(newEntry)
